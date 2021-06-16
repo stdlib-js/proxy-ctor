@@ -39,7 +39,7 @@ tape( 'if an environment supports ES6/ES2015+ `Proxy`, the main export is the `P
 
 	mock = {};
 	Proxy = proxyquire( './../lib', {
-		'@stdlib/assert/has-proxy-support': hasSupport,
+		'@stdlib/assert-has-proxy-support': hasSupport,
 		'./main.js': mock
 	});
 
@@ -57,7 +57,7 @@ tape( 'if an environment does not support ES6/ES2015+ `Proxy`, the main export i
 
 	mock = {};
 	Proxy = proxyquire( './../lib', {
-		'@stdlib/assert/has-proxy-support': hasSupport,
+		'@stdlib/assert-has-proxy-support': hasSupport,
 		'./polyfill.js': mock
 	});
 
