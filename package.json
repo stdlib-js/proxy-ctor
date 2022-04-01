@@ -1,0 +1,30 @@
+{
+  "name": "@stdlib/proxy-ctor",
+  "version": "0.0.0",
+  "description": "Proxy object.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/proxy-ctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "proxy",
+    "intercept",
+    "property",
+    "prop",
+    "access",
+    "object",
+    "obj"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
