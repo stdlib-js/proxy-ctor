@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@esm/index.mjs';
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.0-esm/index.mjs';
 ```
 
 #### Proxy( target, handlers )
@@ -159,7 +159,7 @@ All traps are **optional**. If a trap is not defined, the default behavior is to
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@esm/index.mjs';
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.0-esm/index.mjs';
 
 var handlers;
 var arr;
