@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@deno/mod.js';
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.2-deno/mod.js';
 ```
 
 #### Proxy( target, handlers )
@@ -154,7 +154,7 @@ All traps are **optional**. If a trap is not defined, the default behavior is to
 
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@deno/mod.js';
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.2-deno/mod.js';
 
 var handlers;
 var arr;
