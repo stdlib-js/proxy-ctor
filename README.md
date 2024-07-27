@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/proxy-ctor/tags). For example,
+
+```javascript
 import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.2-esm/index.mjs';
 ```
 
@@ -159,7 +164,7 @@ All traps are **optional**. If a trap is not defined, the default behavior is to
 <script type="module">
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@v0.2.2-esm/index.mjs';
+import Proxy from 'https://cdn.jsdelivr.net/gh/stdlib-js/proxy-ctor@esm/index.mjs';
 
 var handlers;
 var arr;
